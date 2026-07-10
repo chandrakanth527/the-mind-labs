@@ -427,6 +427,62 @@ img {
 }
 
 /* ============================================
+   PLATFORMS
+   ============================================ */
+.platforms-section {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.platforms-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--gray-500);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.platforms-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px 56px;
+}
+
+.platform-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--gray-500);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.platform-item:hover {
+    color: var(--white);
+}
+
+.platform-item i {
+    font-size: 1.6rem;
+}
+
+.platform-svg {
+    width: 26px;
+    height: 26px;
+}
+
+.platform-item span {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* ============================================
    SECTIONS — General
    ============================================ */
 .section {
